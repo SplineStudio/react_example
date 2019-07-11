@@ -1,0 +1,17 @@
+@import '../../constants/colors.scss';
+
+.lang-btn-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid $white;
+    overflow: hidden;
+    transition: width ease-in-out 0.25s;
+    &.opened {
+        transition: width ease-in-out 0.25s;
+    }
+}
